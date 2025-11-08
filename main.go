@@ -6,10 +6,8 @@ import (
 )
 
 func main() {
-	// name := "Michelle"
-	// fmt.Printf("Before reverse: %v\n", name)
-	// reversedName := src.Reverse(name)
-	// fmt.Printf("After reverse: %v\n", reversedName)
-	fmt.Println(src.Reverse("Michelle"))
-	fmt.Println("version3")
+	name := "Michelle"
+	fmt.Printf("Before reverse: %v\n", name)
+	reversedName := src.Reverse(name)
+	fmt.Printf("After reverse: %v\n", reversedName)
 }
